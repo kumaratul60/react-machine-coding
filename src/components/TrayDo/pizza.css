@@ -1,0 +1,92 @@
+.main-Container {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  border: solid 2px black;
+  border-radius: 2px;
+  text-align: center;
+}
+
+/* h1,
+p {
+  text-align: left;
+  margin-inline: 30px;
+  color: #3c4043;
+  word-spacing: -1px;
+} */
+
+.container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.container__top--qty {
+  display: flex;
+  align-items: center;
+}
+.pizza-btn {
+  background-color: transparent;
+  height: 25px;
+  width: 25px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.inputCheckbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.quantity {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.pizzaImg {
+  width: 130px;
+  margin-left: 50px;
+}
+
+.container__bottom {
+  text-align: right;
+  padding-right: 50px;
+  border: solid 2px black;
+}
+.container__bottom--total {
+  margin-right: 10px;
+  color: #3c4043;
+}
+.container__bottom--discountWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: -25px;
+  color: #17b3c7;
+}
+.container__bottom--inputField {
+  width: 20px;
+  margin-inline: 3px;
+  color: #17b3c7;
+  /* outline: none; */
+  border: 2px solid black;
+}
+.container__bottom input::-webkit-outer-.pizza-btn,
+.container__bottom input::-webkit-inner-.pizza-btn {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.container__bottom--toPay {
+  margin-right: 10px;
+  color: #e47168;
+}

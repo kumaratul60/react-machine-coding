@@ -1,0 +1,19 @@
+.yellowStar {
+  fill: rgb(81, 255, 0);
+  background: yellow;
+}
+
+.FiveStar {
+  /* display:flex;
+    align-items:center;
+    justify-content:center; */
+  text-align: center;
+  padding: 100px;
+}
+
+.FiveStar--starList {
+}
+
+li.FiveStar--starListItem {
+  display: inline;
+}

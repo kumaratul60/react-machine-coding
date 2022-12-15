@@ -1,0 +1,23 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 0 auto;
+  width: 68vw;
+}
+
+.sort {
+  background-color: lightgrey;
+  padding: 2%;
+  width: 65vw;
+  margin: 3px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sortBtn {
+  cursor: pointer;
+  background-color: darkgray;
+  padding: 10px;
+  border-radius: 15%;
+}

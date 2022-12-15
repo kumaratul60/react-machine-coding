@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+.north-red {
+  height: 2rem;
+  width: 2rem;
+  background-color: red;
+  margin-left: 2rem;
+}
+
+.north-green {
+  height: 2rem;
+  width: 2rem;
+  background-color: green;
+}
+
+.west-red {
+  height: 2rem;
+  width: 2rem;
+  background-color: red;
+  margin-left: 2rem;
+}
+
+.west-green {
+  height: 2rem;
+  width: 2rem;
+  background-color: green;
+}
+.south-red {
+  height: 2rem;
+  width: 2rem;
+  background-color: red;
+  margin-left: 2rem;
+}
+
+.south-green {
+  height: 2rem;
+  width: 2rem;
+  background-color: green;
+}
+
+.east-red {
+  height: 2rem;
+  width: 2rem;
+  background-color: red;
+  margin-left: 2rem;
+}
+
+.east-green {
+  height: 2rem;
+  width: 2rem;
+  background-color: green;
+}
+.box {
+  display: flex;
+  background-color: white;
+  border: none;
+}

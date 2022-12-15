@@ -1,0 +1,48 @@
+.cartContainer {
+  width: 80vw;
+  height: 80vh;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cartCardContainer {
+  background-color: whitesmoke;
+  width: 80%;
+  height: 30%;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2%;
+}
+
+.img {
+  width: 100px;
+}
+
+.itemDetails {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 40px;
+  padding: 6px;
+  margin: 10px;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+.btnContain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

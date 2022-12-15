@@ -1,0 +1,11 @@
+.stack{
+  text-align: center;
+}
+.btn_root {
+    /* margin-top: 25px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+  }
+  

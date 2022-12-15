@@ -1,0 +1,29 @@
+.toggleWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle {
+  margin: 0 -18% 10% 15%;
+  cursor: pointer;
+}
+.box1-wrapper {
+  width: 30%;
+  height: 10vh;
+  border: 0.5px solid black;
+  border-radius: 0.25rem;
+}
+.box {
+  width: 50%;
+  height: 10vh;
+  border: 1px solid black;
+  background-color: black;
+}
+.box1 {
+  width: 50%;
+  height: 10vh;
+  margin-left: 230px;
+  border: 1px solid black;
+  background-color: black;
+}

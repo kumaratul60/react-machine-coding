@@ -1,0 +1,28 @@
+.wrapper {
+  text-align: center;
+}
+
+.grid-main {
+  display: grid;
+  background-color: whitesmoke;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.child {
+  border: 1px solid rgb(59, 97, 191);
+  cursor: pointer;
+}
+.grid-main :hover {
+  background-color: #ffcccc;
+  transition: all 0.5s ease-in-out;
+}
+.search {
+  width: 20%;
+  height: 20%;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  outline: none;
+  border: 1.5px solid green;
+}
