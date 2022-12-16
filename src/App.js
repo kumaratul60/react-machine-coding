@@ -39,6 +39,7 @@ import AutoSuggest from "./AutoSuggest/AutoSuggest";
 import TrafficLights from "./components/TrafficLights/TrafficLights";
 import ShowEcomerceUI from "./components/Ecommerce/ShowEcomerceUI";
 import EcomerceHome from "./components/EcommerceStaticdata/EcomerceHome";
+import TextSpeaker from "./components/Text-to-speek/speek";
 
 function App() {
   return (
@@ -74,8 +75,9 @@ function App() {
       {/* <DynamicForm /> */}
       {/* <AutoSuggest /> */}
       {/* <TrafficLights /> */}
-      <ShowEcomerceUI />
+      {/* <ShowEcomerceUI /> */}
       {/* <EcomerceHome /> */}
+      <TextSpeaker />
     </div>
   );
 }
