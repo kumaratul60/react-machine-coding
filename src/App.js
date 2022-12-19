@@ -40,6 +40,7 @@ import TrafficLights from "./components/TrafficLights/TrafficLights";
 import ShowEcomerceUI from "./components/Ecommerce/ShowEcomerceUI";
 import EcomerceHome from "./components/EcommerceStaticdata/EcomerceHome";
 import TextSpeaker from "./components/Text-to-speek/speek";
+import Products from "./components/Pagination/PaginationProductAPI/Products";
 
 function App() {
   return (
@@ -77,7 +78,8 @@ function App() {
       {/* <TrafficLights /> */}
       {/* <ShowEcomerceUI /> */}
       {/* <EcomerceHome /> */}
-      <TextSpeaker />
+      {/* <TextSpeaker /> */}
+      <Products />
     </div>
   );
 }
