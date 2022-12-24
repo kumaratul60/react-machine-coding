@@ -41,45 +41,48 @@ import ShowEcomerceUI from "./components/Ecommerce/ShowEcomerceUI";
 import EcomerceHome from "./components/EcommerceStaticdata/EcomerceHome";
 import TextSpeaker from "./components/Text-to-speek/speek";
 import Products from "./components/Pagination/PaginationProductAPI/Products";
+import Collapsible from "./components/AccodionData/Collapsible";
 
 function App() {
   return (
     <div className="App">
-      {/* error in App1 & AppClass */}
-      {/* <App1 /> */}
-      {/* <AppClass /> */}
+      {/* error in App1 & AppClass */ }
+      {/* <App1 /> */ }
+      {/* <AppClass /> */ }
 
-      {/* <App2 /> */}
-      {/* <App3 /> */}
-      {/* <Counter /> */}
-      {/* <FunctionCall /> */}
-      {/* <NewCounter /> */}
-      {/* <StateExample /> */}
-      {/* <MyComponent /> */}
+      {/* <App2 /> */ }
+      {/* <App3 /> */ }
+      {/* <Counter /> */ }
+      {/* <FunctionCall /> */ }
+      {/* <NewCounter /> */ }
+      {/* <StateExample /> */ }
+      {/* <MyComponent /> */ }
 
-      {/* <TodoTickComplete /> */}
-      {/* <FiveStar /> */}
-      {/* <MarkDown /> */}
-      {/* <ToggleBox /> */}
-      {/* <Search /> */}
-      {/* <AllCalls /> */}
-      {/* <Stack /> */}
-      {/* <PaginationComponent /> */}
-      {/* <CharacterCounter /> */}
-      {/* <Stopwatch /> */}
-      {/* <StopwatchCounter /> */}
-      {/* <Pizza /> */}
-      {/* <FolderApp /> */}
-      {/* <NewFolderApp /> */}
-      {/* <MainNested /> */}
-      {/* <Checker /> */}
-      {/* <DynamicForm /> */}
-      {/* <AutoSuggest /> */}
-      {/* <TrafficLights /> */}
-      {/* <ShowEcomerceUI /> */}
-      {/* <EcomerceHome /> */}
-      {/* <TextSpeaker /> */}
-      <Products />
+      {/* <TodoTickComplete /> */ }
+      {/* <FiveStar /> */ }
+      {/* <MarkDown /> */ }
+      {/* <ToggleBox /> */ }
+      {/* <Search /> */ }
+      {/* <AllCalls /> */ }
+      {/* <Stack /> */ }
+      {/* <PaginationComponent /> */ }
+      {/* <CharacterCounter /> */ }
+      {/* <Stopwatch /> */ }
+      {/* <StopwatchCounter /> */ }
+      {/* <Pizza /> */ }
+      {/* <FolderApp /> */ }
+      {/* <NewFolderApp /> */ }
+      {/* <MainNested /> */ }
+      {/* <Checker /> */ }
+      {/* <DynamicForm /> */ }
+      {/* <AutoSuggest /> */ }
+      {/* <TrafficLights /> */ }
+      {/* <ShowEcomerceUI /> */ }
+      {/* <EcomerceHome /> */ }
+      {/* <TextSpeaker /> */ }
+      {/* <Products /> */ }
+
+      <Collapsible />
     </div>
   );
 }

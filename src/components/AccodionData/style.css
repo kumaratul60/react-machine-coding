@@ -1,0 +1,27 @@
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.text__item {
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  margin: 5px;
+  width: 100%;
+  padding: 10px;
+  background: gray;
+  cursor: pointer;
+}
+.text__item:hover {
+  color: blue;
+  background: coral;
+  transition: 0.5s ease-in-out;
+}
