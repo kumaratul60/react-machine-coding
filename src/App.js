@@ -43,6 +43,7 @@ import TextSpeaker from "./components/Text-to-speek/speek";
 import Products from "./components/Pagination/PaginationProductAPI/Products";
 import Collapsible from "./components/AccodionData/Collapsible";
 import NestedComment from "./components/Nested comment widget/main";
+import InputChar from "./input char/input";
 
 function App() {
   return (
@@ -83,8 +84,9 @@ function App() {
       {/* <TextSpeaker /> */ }
       {/* <Products /> */ }
 
-      <Collapsible />
+      {/* <Collapsible /> */}
       <NestedComment />
+      <InputChar/>
     </div>
   );
 }
