@@ -48,6 +48,7 @@ import UsingUseCounterHooks from "./components/CustomHooks/UseCounter";
 import UseFetch from "./components/CustomHooks/UseFetch/UseFetch";
 import CounterShare from "./components/Parent2Child data/CounterShare";
 import CounterUsingContext from "./components/Parent2Child data/CounterContext";
+import FetchCitiesWeather from "./components/FetchWeatherdata/FetchCitiesWeather";
 
 function App() {
   return (
@@ -94,8 +95,10 @@ function App() {
 
       {/* <UsingUseCounterHooks /> */ }
       {/* <UseFetch/> */ }
+      <FetchCitiesWeather />
       <CounterShare />
       <CounterUsingContext />
+
     </div>
   );
 }
