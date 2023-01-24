@@ -45,6 +45,7 @@ import Collapsible from "./components/AccodionData/Collapsible";
 import NestedComment from "./components/Nested comment widget/main";
 import InputChar from "./components/Input char/input";
 import UsingUseCounterHooks from "./components/CustomHooks/UseCounter";
+import UseFetch from "./components/CustomHooks/UseFetch/UseFetch";
 
 function App() {
   return (
@@ -90,6 +91,7 @@ function App() {
       <InputChar />
 
       <UsingUseCounterHooks />
+      <UseFetch/>
     </div>
   );
 }
