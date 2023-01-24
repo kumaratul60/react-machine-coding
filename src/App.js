@@ -44,6 +44,7 @@ import Products from "./components/Pagination/PaginationProductAPI/Products";
 import Collapsible from "./components/AccodionData/Collapsible";
 import NestedComment from "./components/Nested comment widget/main";
 import InputChar from "./components/Input char/input";
+import UsingUseCounterHooks from "./components/CustomHooks/UseCounter";
 
 function App() {
   return (
@@ -87,6 +88,8 @@ function App() {
       {/* <Collapsible /> */ }
       <NestedComment />
       <InputChar />
+
+      <UsingUseCounterHooks />
     </div>
   );
 }
