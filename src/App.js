@@ -46,8 +46,8 @@ import NestedComment from "./components/Nested comment widget/main";
 import InputChar from "./components/Input char/input";
 import UsingUseCounterHooks from "./components/CustomHooks/UseCounter";
 import UseFetch from "./components/CustomHooks/UseFetch/UseFetch";
-import CounterShare from "./Parent2Child data/CounterShare";
-import CounterUsingContext from "./Parent2Child data/CounterContext";
+import CounterShare from "./components/Parent2Child data/CounterShare";
+import CounterUsingContext from "./components/Parent2Child data/CounterContext";
 
 function App() {
   return (
