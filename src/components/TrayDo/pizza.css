@@ -75,11 +75,11 @@ h3 {
   color: #17b3c7;
 }
 .container__bottom--inputField {
-  width: 20px;
+  /* width: 50px; */
   margin-inline: 3px;
   color: #17b3c7;
   /* outline: none; */
-  border: 2px solid black;
+  border: 1px solid black;
 }
 .container__bottom input::-webkit-outer-.pizza-btn,
 .container__bottom input::-webkit-inner-.pizza-btn {

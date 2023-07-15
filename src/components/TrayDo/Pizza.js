@@ -26,9 +26,10 @@ function Pizza() {
 
   // 60% discounts condition
   let discountedPrice;
-  if (discount <= 60) {
+  if (discount <= 100) {
     discountedPrice = price - [price * (discount / 100)];
   } else {
+    alert("you can get only 100% discount");
     discountedPrice = price;
   }
 
@@ -39,7 +40,7 @@ function Pizza() {
 
       <div className="container">
         <div className="container__top">
-          <span>Add Quanitity</span>
+          <span>Add Quantity</span>
           <div className="container__top--qty">
             <button
               className="pizza-btn"
@@ -88,7 +89,7 @@ function Pizza() {
             className="container__bottom--inputField"
             type="number"
             value={discount}
-            // placeholder = "10%"
+            placeholder="10%"
             onChange={(e) => setDiscount(e.target.value)}
           />{" "}
           %

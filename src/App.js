@@ -53,52 +53,50 @@ import FetchCitiesWeather from "./components/FetchWeatherdata/FetchCitiesWeather
 function App() {
   return (
     <div className="App">
-      {/* error in App1 & AppClass */ }
-      {/* <App1 /> */ }
-      {/* <AppClass /> */ }
+      {/* error in App1 & AppClass */}
+      {/* <App1 />
+       <AppClass />
+       <App2 /> 
+       <App3 />  */}
+      {/* <Counter /> */}
+      {/* <FunctionCall />  */}
+      {/* <NewCounter />  */}
+      {/* <StateExample />  */}
+      {/* <MyComponent />  */}
 
-      {/* <App2 /> */ }
-      {/* <App3 /> */ }
-      {/* <Counter /> */ }
-      {/* <FunctionCall /> */ }
-      {/* <NewCounter /> */ }
-      {/* <StateExample /> */ }
-      {/* <MyComponent /> */ }
+      {/* <TodoTickComplete />  */}
+      {/* <FiveStar />  */}
+      {/* <MarkDown /> */}
+      {/* <ToggleBox />  */}
+      {/* <Search /> */}
+      {/* <AllCalls /> */}
+      {/* <Stack />  */}
+      {/* <PaginationComponent /> */}
+      {/* <CharacterCounter /> */}
+      {/* <Stopwatch /> */}
+      {/* <StopwatchCounter /> */}
+      {/* <Pizza /> */}
+      {/* <FolderApp /> */}
+      {/* <NewFolderApp /> */}
+      {/* <MainNested /> */}
+      {/* <Checker /> */}
+      <DynamicForm />
+      {/* <AutoSuggest /> */}
+      {/* <TrafficLights /> */}
+      {/* <ShowEcomerceUI /> */}
+      {/* <EcomerceHome /> */}
+      {/* <TextSpeaker /> */}
+      {/* <Products /> */}
 
-      {/* <TodoTickComplete /> */ }
-      {/* <FiveStar /> */ }
-      {/* <MarkDown /> */ }
-      {/* <ToggleBox /> */ }
-      {/* <Search /> */ }
-      {/* <AllCalls /> */ }
-      {/* <Stack /> */ }
-      {/* <PaginationComponent /> */ }
-      {/* <CharacterCounter /> */ }
-      {/* <Stopwatch /> */ }
-      {/* <StopwatchCounter /> */ }
-      {/* <Pizza /> */ }
-      {/* <FolderApp /> */ }
-      {/* <NewFolderApp /> */ }
-      {/* <MainNested /> */ }
-      {/* <Checker /> */ }
-      {/* <DynamicForm /> */ }
-      {/* <AutoSuggest /> */ }
-      {/* <TrafficLights /> */ }
-      {/* <ShowEcomerceUI /> */ }
-      {/* <EcomerceHome /> */ }
-      {/* <TextSpeaker /> */ }
-      {/* <Products /> */ }
-
-      {/* <Collapsible /> */ }
-      {/* <NestedComment /> */ }
+      {/* <Collapsible /> */}
+      <NestedComment />
       <InputChar />
 
-      {/* <UsingUseCounterHooks /> */ }
-      {/* <UseFetch/> */ }
-      <FetchCitiesWeather />
-      <CounterShare />
-      <CounterUsingContext />
-
+      {/* <UsingUseCounterHooks /> */}
+      {/* <UseFetch/> */}
+      {/* <FetchCitiesWeather /> */}
+      {/* <CounterShare /> */}
+        {/* <CounterUsingContext /> */}
     </div>
   );
 }
