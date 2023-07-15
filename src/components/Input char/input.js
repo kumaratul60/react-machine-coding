@@ -1,21 +1,9 @@
 import { useState, useEffect } from "react";
+import "./input.css";
 
 export default function InputChar() {
   const [input, setInput] = useState("");
   const [displayInput, setDisplayInput] = useState("");
-
-  // useEffect(() => {
-  //     let index = 0;
-  //     const printChar = () => {
-  //         setDisplayInput(input.slice(0, index));
-  //         index++;
-  //         if (index <= input.length) {
-  //             setTimeout(printChar, 500);
-  //         }
-  //     };
-
-  //     printChar();
-  // }, [input]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -25,7 +13,7 @@ export default function InputChar() {
         return;
       }
       setDisplayInput(input.slice(0, displayInput.length + 1));
-    }, 600);
+    }, 300);
     return () => clearInterval(interval);
   }, [input, displayInput]);
 
@@ -35,22 +23,25 @@ export default function InputChar() {
     const totalVowels = (text.match(/[aeiou]/gi) || []).length;
     const totalConsonants = totalCharacters - totalVowels;
 
-    // Display the pop-up with the character information
-    alert(
-      `Total Characters: ${totalCharacters}\nTotal Vowels: ${totalVowels}\nTotal Consonants: ${totalConsonants}`
-    );
+    if (input !== "") {
+      alert(
+        `Total Characters: ${totalCharacters}\nTotal Vowels: ${totalVowels}\nTotal Consonants: ${totalConsonants}`
+      );
+    }
   };
 
   return (
-    <>
-      <input
-        type="text"
-        placeholder="type some text"
-        onChange={(e) => {
-          setInput(e.target.value);
-        }}
-      />
-      <p>{displayInput}</p>
-    </>
+    <div className="container">
+      <div className="content">
+        <input
+          type="text"
+          placeholder="type some text"
+          onChange={(e) => {
+            setInput(e.target.value);
+          }}
+        />
+        {input && <p className="display">{displayInput}</p>}
+      </div>
+    </div>
   );
 }

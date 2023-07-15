@@ -80,7 +80,7 @@ function App() {
       {/* <NewFolderApp /> */}
       {/* <MainNested /> */}
       {/* <Checker /> */}
-      <DynamicForm />
+      {/* <DynamicForm /> */}
       {/* <AutoSuggest /> */}
       {/* <TrafficLights /> */}
       {/* <ShowEcomerceUI /> */}
@@ -89,7 +89,7 @@ function App() {
       {/* <Products /> */}
 
       {/* <Collapsible /> */}
-      <NestedComment />
+      {/* <NestedComment /> */}
       <InputChar />
 
       {/* <UsingUseCounterHooks /> */}
