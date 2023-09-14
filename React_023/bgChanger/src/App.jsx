@@ -71,7 +71,7 @@ function App() {
             style={{ background: "gray" }}
             onClick={() => setColor("gray")}
           >
-            Red
+            Gray
           </button>
 
           <button
