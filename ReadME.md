@@ -6,7 +6,8 @@
 - Currency Convertor
 - Learn router
 - Password Generator
-- Context API
+- Context API concept
+- Themeswitcher using context api
 
 /React_project
 
