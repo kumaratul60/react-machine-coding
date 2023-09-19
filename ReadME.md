@@ -8,6 +8,7 @@
 - Password Generator
 - Context API concept
 - Themeswitcher using context api
+- Todo app with CRUD and persistent state using context API & local storage
 
 /React_project
 
