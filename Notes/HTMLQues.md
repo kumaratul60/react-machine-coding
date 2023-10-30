@@ -11,12 +11,12 @@ HTML (Hypertext Markup Language) is the standard markup language used to create 
 - **<script>**: Used to include JavaScript code or reference external JavaScript files.
 - **<style>**: Defines internal CSS styles for the page.
 - **<body>**: Contains the visible content of the web page, including text, images, and other media.
-- <h1>,.., <h6>:
-  Headings, with `<h1>` being the highest level and `<h6>` the lowest, used to structure and format text.
+- **heading**:
+  Headings h1 to h6, with `<h1>` being the highest level and `<h6>` the lowest, used to structure and format text.
 - **<p>**: Represents a paragraph of text.
 - **<a>**: Creates hyperlinks to other web pages, resources, or email addresses.
 - **<img>**: Embeds images on the page.
-- <ul>&<ol>: Create unordered and ordered lists, respectively.
+- **lists**: Create unordered and ordered lists, respectively.
 - **<li>**: Represents a list item within a list.
 - **<div>**: A generic container for grouping and styling content.
 - **<span>**: A generic inline container for styling a section of text.
