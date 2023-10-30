@@ -4,14 +4,15 @@ HTML (Hypertext Markup Language) is the standard markup language used to create 
 
 - **<!DOCTYPE>**: This declaration defines the document type and version of HTML being used.
 - **<html>**: The root element that wraps all the content on the web page.
-- **<head>**: Contains metadata about the document, such as the title of the page, character set, and links to external resources.
+- **<head>**: Contains meta information about the webpage, such as title tags or link to external CSS files.
 - **<title>**: Sets the title of the web page, which is displayed in the browser's title bar or tab.
 - **<meta>**: Provides metadata about the document, like character encoding, author, and viewport settings.
 - **<link>**: Used to link external resources like stylesheets (CSS) to the HTML document.
 - **<script>**: Used to include JavaScript code or reference external JavaScript files.
 - **<style>**: Defines internal CSS styles for the page.
 - **<body>**: Contains the visible content of the web page, including text, images, and other media.
-- **<h1> to <h6>**: Headings, with `<h1>` being the highest level and `<h6>` the lowest, used to structure and format text.
+- **<h1> to <h6>**:
+  Headings, with `<h1>` being the highest level and `<h6>` the lowest, used to structure and format text.
 - **<p>**: Represents a paragraph of text.
 - **<a>**: Creates hyperlinks to other web pages, resources, or email addresses.
 - **<img>**: Embeds images on the page.
@@ -19,9 +20,11 @@ HTML (Hypertext Markup Language) is the standard markup language used to create 
 - **<li>**: Represents a list item within a list.
 - **<div>**: A generic container for grouping and styling content.
 - **<span>**: A generic inline container for styling a section of text.
-- **<table>**: Used for creating tables, and it includes elements like `<tr>`, `<th>`, and `<td>` for defining rows, headers, and data cells.
+- **<table>**:
+  Used for creating tables, and it includes elements like `<tr>`, `<th>`, and `<td>` for defining rows, headers, and data cells.
 - **<form>**: Used to create interactive forms that can collect user input.
-- **<input>**: An element used within a form to create various input fields like text boxes, radio buttons, checkboxes, etc.
+- **<input>**:
+  An element used within a form to create various input fields like text boxes, radio buttons, checkboxes, etc.
 - **<textarea>**: Creates a multi-line text input field within a form.
 - **<button>**: Creates clickable buttons within a form.
 - **<label>**: Provides labels for form elements, improving accessibility.
@@ -110,12 +113,14 @@ In HTML, "tags" and "meta tags" refer to specific elements used to define the st
   HTML tags are used to structure the content of a web page, defining the elements and their relationships. They determine how text and media are displayed, organized, and formatted on the page. Some common HTML tags include:
 
   - `<html>`: The root element that encloses the entire web page.
-  - `<head>`: Contains meta-information about the document, such as the title and links to external resources.
+  - `<head>`:
+    Contains meta-information about the document, such as the title and links to external resources.
   - `<title>`: Specifies the title of the web page, which appears in the browser's title bar or tab.
   - `<body>`: Contains the visible content of the web page, including text, images, and other media.
-  - `<h1>`, `<h2>`, `<p>`, `<a>`, `<img>`, and more: These tags structure and format text, create links, embed images, and perform other essential tasks.
+  - `<h1>`, `<h2>`, `<p>`, `<a>`, `<img>`, and more:
+    These tags structure and format text, create links, embed images, and perform other essential tasks.
 
-  HTML tags are fundamental for creating the structure and content of a web page.
+  _HTML tags are fundamental for creating the structure and content of a web page._
 
 - **Meta Tags:**
   Meta tags are a specific subset of HTML tags that provide metadata about the web page itself.
@@ -124,11 +129,16 @@ Meta tags provide metadata and additional information about a web page. Some com
 
 - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Defines the viewport for responsive web design on mobile devices.
 
-  - `<meta charset="UTF-8">`: Specifies the character encoding used in the document.
-  - `<meta name="description" content="A brief description of the page">`: Provides a brief description of the web page's content.
-  - `<meta name="keywords" content="keywords, for, SEO">`: Lists keywords relevant to the page's content, although this is less significant for modern SEO.
-  - `<meta name="author" content="Author Name">`: Specifies the author of the page.
-  - `<meta name="viewport" content="width=device-width, initial-scale=1">`: Helps optimize the page's layout for different devices (used for responsive design).
+  - `<meta charset="UTF-8">`:
+    Specifies the character encoding used in the document.
+  - `<meta name="description" content="A brief description of the page">`:
+    Provides a brief description of the web page's content.
+  - `<meta name="keywords" content="keywords, for, SEO">`:
+    Lists keywords relevant to the page's content, although this is less significant for modern SEO.
+  - `<meta name="author" content="Author Name">`:
+    Specifies the author of the page.
+  - `<meta name="viewport" content="width=device-width, initial-scale=1">`:
+    Helps optimize the page's layout for different devices (used for responsive design).
 
   Some meta tags also affect how social media platforms display links when a page is shared, such as Open Graph and Twitter Card meta tags.
 
@@ -165,9 +175,12 @@ Here's how you typically use the `<script>` tag:
 Additionally, the `<script>` tag has several attributes and options:
 
 - `src`: Specifies the source (URL) of the external JavaScript file.
-- `type`: Indicates the scripting language being used (e.g., "text/javascript"). While it's no longer required in modern HTML, it's a good practice to include it.
-- `async`: Indicates that the script should be executed asynchronously while the page continues loading. This is often used for non-blocking scripts.
-- `defer`: Indicates that the script should be executed after the page has finished parsing. This is useful for scripts that rely on the DOM but don't need to block page rendering.
+- `type`:
+  Indicates the scripting language being used (e.g., "text/javascript"). While it's no longer required in modern HTML, it's a good practice to include it.
+- `async`:
+  Indicates that the script should be executed asynchronously while the page continues loading. This is often used for non-blocking scripts.
+- `defer`:
+  Indicates that the script should be executed after the page has finished parsing. This is useful for scripts that rely on the DOM but don't need to block page rendering.
 
 Here's an example of including an external JavaScript file with the "src" attribute and "defer" attribute:
 
@@ -190,10 +203,13 @@ Some common types of **CSS selectors** include:
 - **Class selectors**: Select elements with a specific class, e.g. `.myClass`
 - **Attribute selectors**: Select elements with a specific attribute, e.g. `[type="radio"]`
 - **Pseudo-class selectors**: Select elements based on a certain state, e.g. `a:hover`
-- **Pseudo-element Selector**: Selects parts of an element, such as the first line or first letter, e.g. `p::first-line,::selection, etc.`
-- **Descendant selectors**: Select elements that are descendants of other elements, e.g. `p a` selects all `<a>` elements inside `<p>`
+- **Pseudo-element Selector**:
+  Selects parts of an element, such as the first line or first letter, e.g. `p::first-line,::selection, etc.`
+- **Descendant selectors**:
+  Select elements that are descendants of other elements, e.g. `p a` selects all `<a>` elements inside `<p>`
 - **Child selectors**: Select direct children elements, e.g. `ul > li`
-- **Adjacent sibling selectors**: Select adjacent sibling elements, e.g. `h1 + p` selects the first `<p>` after every `<h1>`
+- **Adjacent sibling selectors**:
+  Select adjacent sibling elements, e.g. `h1 + p` selects the first `<p>` after every `<h1>`
 - **Universal selector**: Select all elements on the page, e.g. `*`
 - **Grouping selectors**: Group multiple selectors to apply styles to multiple elements, e.g. `h1, h2, p`
 
@@ -203,21 +219,27 @@ In the context of the Document Object Model (DOM), a "node" refers to a fundamen
 
 Nodes in the DOM can be categorized into several types, and they form a hierarchical structure:
 
-- **Document Node (Document)**: The top-level node that represents the entire document. There is only one document node per web page.
-- **Element Nodes (Element)**: These nodes represent HTML elements, such as `<div>`, `<p>`, or `<a>`. Elements can contain other elements and text content. They are the most common nodes in the DOM.
-- **Attribute Nodes (Attribute)**: These nodes represent the attributes of elements. For example, the "id" or "class" attribute of an HTML element.
-- **Text Nodes (Text)**: These nodes represent the text content inside an element. For instance, the text within a `<p>` element.
+- **Document Node (Document)**:
+  The top-level node that represents the entire document. There is only one document node per web page.
+- **Element Nodes (Element)**:
+  These nodes represent HTML elements, such as `<div>`, `<p>`, or `<a>`. Elements can contain other elements and text content. They are the most common nodes in the DOM.
+- **Attribute Nodes (Attribute)**:
+  These nodes represent the attributes of elements. For example, the "id" or "class" attribute of an HTML element.
+- **Text Nodes (Text)**:
+  These nodes represent the text content inside an element. For instance, the text within a `<p>` element.
 - **Comment Nodes (Comment)**: These nodes represent HTML comments within the document.
-- **Document Type Declaration Node (DocumentType)**: Represents the <!DOCTYPE> declaration in an HTML document.
-- **Document Fragment Node (DocumentFragment)**: A lightweight, temporary container for storing and manipulating multiple DOM nodes before adding them to the main document. This is often used to improve performance when making multiple changes to the DOM at once.
-- **Processing Instruction Nodes (ProcessingInstruction)**: These nodes are used in XML documents to provide instructions to applications processing the document.
+- **Document Type Declaration Node (DocumentType)**:
+  Represents the <!DOCTYPE> declaration in an HTML document.
+- **Document Fragment Node (DocumentFragment)**:
+  A lightweight, temporary container for storing and manipulating multiple DOM nodes before adding them to the main document. This is often used to improve performance when making multiple changes to the DOM at once.
+- **Processing Instruction Nodes (ProcessingInstruction)**:
+  These nodes are used in XML documents to provide instructions to applications processing the document.
 
 Nodes are interconnected through a parent-child relationship, forming a tree-like structure. For example, an element node can contain child element nodes, text nodes, and attribute nodes. These nodes allow web developers to interact with and manipulate the content and structure of a web page using JavaScript or other programming languages.
 
 When you use JavaScript to manipulate the DOM, you're typically working with these nodes to access, modify, or create elements, attributes, and text content on a web page. For example, you can use JavaScript to create new elements, update the text within elements, or change element attributes, which results in dynamic and interactive web pages.
 
 7. diffrence between DOM & HTML DOM & Nodes?
-
 
 The terms "DOM" (Document Object Model), "HTML DOM," and "nodes" are closely related concepts, but they have distinct differences:
 
@@ -281,17 +303,26 @@ In HTML, a "semantic tag" refers to an HTML element that conveys meaningful info
 
 Here are some common semantic HTML5 tags:
 
-- **<header>**: Represents the header section of a document or a section. It typically contains the page title, navigation menus, and other introductory content.
-- **<nav>**: Defines a section containing navigation links, such as a menu or a list of links to different parts of the site.
-- **<main>**: Represents the main content of the document. There should be only one `<main>` element in a document.
-- **<article>**: Represents a self-contained composition within a document, such as a news article, blog post, or forum post.
-- **<section>**: Represents a thematic grouping of content. It can be used to group related content within an article.
-- **<aside>**: Represents content that is tangentially related to the content around it, often displayed in a sidebar.
-- **<footer>**: Represents the footer section of a document or a section. It usually contains information about the author, copyright, and links to related documents.
-- **<figure>**: Used to encapsulate media, such as images, illustrations, diagrams, or videos, along with their captions using the `<figcaption>` element.
+- **<header>**:
+  Represents the header section of a document or a section. It typically contains the page title, navigation menus, and other introductory content.
+- **<nav>**:
+  Defines a section containing navigation links, such as a menu or a list of links to different parts of the site.
+- **<main>**:
+  Represents the main content of the document. There should be only one `<main>` element in a document.
+- **<article>**:
+  Represents a self-contained composition within a document, such as a news article, blog post, or forum post.
+- **<section>**:
+  Represents a thematic grouping of content. It can be used to group related content within an article.
+- **<aside>**:
+  Represents content that is tangentially related to the content around it, often displayed in a sidebar.
+- **<footer>**:
+  Represents the footer section of a document or a section. It usually contains information about the author, copyright, and links to related documents.
+- **<figure>**:
+  Used to encapsulate media, such as images, illustrations, diagrams, or videos, along with their captions using the `<figcaption>` element.
 - **<figcaption>**: Provides a caption or description for content within a `<figure>` element.
 
-- **<time>**: Represents a specific time or a range of time, making it useful for marking up dates and times.
+- **<time>**:
+  Represents a specific time or a range of time, making it useful for marking up dates and times.
 
 - **<mark>**: Indicates text that has been highlighted for reference or emphasis.
 
@@ -299,12 +330,15 @@ Here are some common semantic HTML5 tags:
 
 - **<details>**: Provides a disclosure widget to show or hide additional information.
 
-- **<summary>**: Used in conjunction with the `<details>` element to provide a summary or heading for the additional information.
+- **<summary>**:
+  Used in conjunction with the `<details>` element to provide a summary or heading for the additional information.
 
 - **<blockquote>**: Represents a section of content that is quoted from another source.
 
-- **<cite>**: Used to indicate the title of a creative work (e.g., a book, movie, or song) or the name of the source in a citation.
+- **<cite>**:
+  Used to indicate the title of a creative work (e.g., a book, movie, or song) or the name of the source in a citation.
 
-- **<abbr>**: Represents an abbreviation or acronym and can provide a title attribute to expand on the abbreviation.
+- **<abbr>**:
+  Represents an abbreviation or acronym and can provide a title attribute to expand on the abbreviation.
 
 By using these semantic tags, web developers can create more structured and meaningful HTML documents. This not only improves the organization and clarity of the content but also benefits accessibility and search engine indexing. Search engines and assistive technologies can better understand the content and its relationships, leading to improved user experiences for all users.
