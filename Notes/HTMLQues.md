@@ -2,32 +2,32 @@
 
 HTML (Hypertext Markup Language) is the standard markup language used to create web pages. It consists of a set of elements or tags that are used to structure the content of a web page. HTML elements are the building blocks of a web page, and they define the structure and content of the page. Here are some of the basic HTML elements:
 
-- **<!DOCTYPE>**: This declaration defines the document type and version of HTML being used.
-- **<html>**: The root element that wraps all the content on the web page.
-- **<head>**: Contains meta information about the webpage, such as title tags or link to external CSS files.
-- **<title>**: Sets the title of the web page, which is displayed in the browser's title bar or tab.
-- **<meta>**: Provides metadata about the document, like character encoding, author, and viewport settings.
-- **<link>**: Used to link external resources like stylesheets (CSS) to the HTML document.
-- **<script>**: Used to include JavaScript code or reference external JavaScript files.
-- **<style>**: Defines internal CSS styles for the page.
-- **<body>**: Contains the visible content of the web page, including text, images, and other media.
+- **!DOCTYPE**: This declaration defines the document type and version of HTML being used.
+- **html**: The root element that wraps all the content on the web page.
+- **head**: Contains meta information about the webpage, such as title tags or link to external CSS files.
+- **title**: Sets the title of the web page, which is displayed in the browser's title bar or tab.
+- **meta**: Provides metadata about the document, like character encoding, author, and viewport settings.
+- **link**: Used to link external resources like stylesheets (CSS) to the HTML document.
+- **script**: Used to include JavaScript code or reference external JavaScript files.
+- **style**: Defines internal CSS styles for the page.
+- **body**: Contains the visible content of the web page, including text, images, and other media.
 - **heading**:
   Headings h1 to h6, with `<h1>` being the highest level and `<h6>` the lowest, used to structure and format text.
-- **<p>**: Represents a paragraph of text.
-- **<a>**: Creates hyperlinks to other web pages, resources, or email addresses.
-- **<img>**: Embeds images on the page.
+- **p**: Represents a paragraph of text.
+- **a**: Creates hyperlinks to other web pages, resources, or email addresses.
+- **img**: Embeds images on the page.
 - **lists**: Create unordered and ordered lists, respectively.
-- **<li>**: Represents a list item within a list.
-- **<div>**: A generic container for grouping and styling content.
-- **<span>**: A generic inline container for styling a section of text.
-- **<table>**:
+- **li**: Represents a list item within a list.
+- **div**: A generic container for grouping and styling content.
+- **span**: A generic inline container for styling a section of text.
+- **table**:
   Used for creating tables, and it includes elements like `<tr>`, `<th>`, and `<td>` for defining rows, headers, and data cells.
-- **<form>**: Used to create interactive forms that can collect user input.
-- **<input>**:
+- **form**: Used to create interactive forms that can collect user input.
+- **input**:
   An element used within a form to create various input fields like text boxes, radio buttons, checkboxes, etc.
-- **<textarea>**: Creates a multi-line text input field within a form.
-- **<button>**: Creates clickable buttons within a form.
-- **<label>**: Provides labels for form elements, improving accessibility.
+- **textarea**: Creates a multi-line text input field within a form.
+- **button**: Creates clickable buttons within a form.
+- **label**: Provides labels for form elements, improving accessibility.
 
 These are some of the essential HTML elements, but there are many more, including those used for multimedia (e.g., `<audio>` and `<video`), embedded content (e.g., `<iframe>`), and semantic HTML5 elements that help structure content more meaningfully (e.g., `<header>`, `<nav>`, `<footer>`).
 
@@ -303,42 +303,42 @@ In HTML, a "semantic tag" refers to an HTML element that conveys meaningful info
 
 Here are some common semantic HTML5 tags:
 
-- **<header>**:
+- **header**:
   Represents the header section of a document or a section. It typically contains the page title, navigation menus, and other introductory content.
-- **<nav>**:
+- **nav**:
   Defines a section containing navigation links, such as a menu or a list of links to different parts of the site.
-- **<main>**:
+- **main**:
   Represents the main content of the document. There should be only one `<main>` element in a document.
-- **<article>**:
+- **article**:
   Represents a self-contained composition within a document, such as a news article, blog post, or forum post.
-- **<section>**:
+- **section**:
   Represents a thematic grouping of content. It can be used to group related content within an article.
-- **<aside>**:
+- **aside**:
   Represents content that is tangentially related to the content around it, often displayed in a sidebar.
-- **<footer>**:
+- **footer**:
   Represents the footer section of a document or a section. It usually contains information about the author, copyright, and links to related documents.
-- **<figure>**:
+- **figure**:
   Used to encapsulate media, such as images, illustrations, diagrams, or videos, along with their captions using the `<figcaption>` element.
-- **<figcaption>**: Provides a caption or description for content within a `<figure>` element.
+- **figcaption**: Provides a caption or description for content within a `<figure>` element.
 
-- **<time>**:
+- **time**:
   Represents a specific time or a range of time, making it useful for marking up dates and times.
 
-- **<mark>**: Indicates text that has been highlighted for reference or emphasis.
+- **mark**: Indicates text that has been highlighted for reference or emphasis.
 
-- **<meter>**: Represents a scalar measurement within a known range, such as a gauge or progress bar.
+- **meter**: Represents a scalar measurement within a known range, such as a gauge or progress bar.
 
-- **<details>**: Provides a disclosure widget to show or hide additional information.
+- **details**: Provides a disclosure widget to show or hide additional information.
 
-- **<summary>**:
+- **summary**:
   Used in conjunction with the `<details>` element to provide a summary or heading for the additional information.
 
-- **<blockquote>**: Represents a section of content that is quoted from another source.
+- **blockquote**: Represents a section of content that is quoted from another source.
 
-- **<cite>**:
+- **cite**:
   Used to indicate the title of a creative work (e.g., a book, movie, or song) or the name of the source in a citation.
 
-- **<abbr>**:
+- **abbr**:
   Represents an abbreviation or acronym and can provide a title attribute to expand on the abbreviation.
 
 By using these semantic tags, web developers can create more structured and meaningful HTML documents. This not only improves the organization and clarity of the content but also benefits accessibility and search engine indexing. Search engines and assistive technologies can better understand the content and its relationships, leading to improved user experiences for all users.
