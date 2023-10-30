@@ -11,33 +11,19 @@ HTML (Hypertext Markup Language) is the standard markup language used to create 
 - **<script>**: Used to include JavaScript code or reference external JavaScript files.
 - **<style>**: Defines internal CSS styles for the page.
 - **<body>**: Contains the visible content of the web page, including text, images, and other media.
-
 - **<h1> to <h6>**: Headings, with `<h1>` being the highest level and `<h6>` the lowest, used to structure and format text.
-
 - **<p>**: Represents a paragraph of text.
-
 - **<a>**: Creates hyperlinks to other web pages, resources, or email addresses.
-
 - **<img>**: Embeds images on the page.
-
 - **<ul> and <ol>**: Create unordered and ordered lists, respectively.
-
 - **<li>**: Represents a list item within a list.
-
 - **<div>**: A generic container for grouping and styling content.
-
 - **<span>**: A generic inline container for styling a section of text.
-
 - **<table>**: Used for creating tables, and it includes elements like `<tr>`, `<th>`, and `<td>` for defining rows, headers, and data cells.
-
 - **<form>**: Used to create interactive forms that can collect user input.
-
-20. **<input>**: An element used within a form to create various input fields like text boxes, radio buttons, checkboxes, etc.
-
+- **<input>**: An element used within a form to create various input fields like text boxes, radio buttons, checkboxes, etc.
 - **<textarea>**: Creates a multi-line text input field within a form.
-
 - **<button>**: Creates clickable buttons within a form.
-
 - **<label>**: Provides labels for form elements, improving accessibility.
 
 These are some of the essential HTML elements, but there are many more, including those used for multimedia (e.g., `<audio>` and `<video`), embedded content (e.g., `<iframe>`), and semantic HTML5 elements that help structure content more meaningfully (e.g., `<header>`, `<nav>`, `<footer>`).
@@ -148,7 +134,9 @@ Meta tags provide metadata and additional information about a web page. Some com
 
   These are just a few examples of meta tags. Meta tags are essential for search engine optimization (SEO) and for providing information to browsers and other web services about your web page. They help improve the discoverability and presentation of your content on the web.
 
-4. What is script tags?
+4. What is **script** tags?
+
+The `<script>` tag is used to embed JavaScript code within an HTML file.
 
 In HTML, the `<script>` tag is used to include or embed JavaScript code within a web page. JavaScript is a programming language that allows you to add interactivity, manipulate the Document Object Model (DOM), and create dynamic behavior on a web page. The `<script>` tag is crucial for adding client-side scripting to your web pages.
 
@@ -229,6 +217,7 @@ Nodes are interconnected through a parent-child relationship, forming a tree-lik
 When you use JavaScript to manipulate the DOM, you're typically working with these nodes to access, modify, or create elements, attributes, and text content on a web page. For example, you can use JavaScript to create new elements, update the text within elements, or change element attributes, which results in dynamic and interactive web pages.
 
 7. diffrence between DOM & HTML DOM & Nodes?
+
 
 The terms "DOM" (Document Object Model), "HTML DOM," and "nodes" are closely related concepts, but they have distinct differences:
 
