@@ -1,0 +1,9 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+input, button{
+  padding:10px;
+  margin: 5px;
+}
