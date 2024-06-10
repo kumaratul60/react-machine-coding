@@ -53,6 +53,7 @@ const Carausel = () => {
       }`}
     />
   );
+  
   return (
     <div className=" flex justify-center">
       <button
