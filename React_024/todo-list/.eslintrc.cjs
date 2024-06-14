@@ -16,6 +16,11 @@ module.exports = {
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
+      {
+        "no-unused-variable": [true,
+          // { "ignore-pattern": "^_" }
+        ]
+      }
     ],
   },
 }
