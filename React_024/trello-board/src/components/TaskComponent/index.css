@@ -1,0 +1,10 @@
+.task__container {
+  margin: 10px;
+  padding: 10px;
+}
+
+.task__container__category {
+  display: flex;
+  gap: 20px;
+  font-size:16px
+}

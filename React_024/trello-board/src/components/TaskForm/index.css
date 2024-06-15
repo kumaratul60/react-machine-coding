@@ -1,0 +1,21 @@
+.form__container{
+    padding-bottom: 10px;
+}
+.form__container input {
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form__container button {
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 4px;
+}
+
+.form__container select {
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 4px;
+  outline: none;
+}
