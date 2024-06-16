@@ -1,13 +1,13 @@
 // import './App.css';
-import BoxTask from './components/BoxShape';
-import TaskVisulizer from './components/TaskVizulizer';
+import BoxTask from "./components/BoxShape";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <>
       <BoxTask />
-      <TaskVisulizer/>
-   </>
+      <Counter />
+    </>
   );
 }
 
