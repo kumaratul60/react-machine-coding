@@ -1,6 +1,6 @@
 import "./index.css";
 
-const TaskCard = ({ taskName, setIsEditing }) => {
+const TaskCard = ({ taskName, setIsEditing, deleteTaskHandler }) => {
   return (
     <div className="taskcard__contanier">
       <p>{taskName.name}</p>

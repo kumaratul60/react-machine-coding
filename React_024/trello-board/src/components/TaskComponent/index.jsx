@@ -52,7 +52,7 @@ const TaskComponent = () => {
     const updatedTasks = { ...tasks };
 
     // Find the task in the old category and remove it
-    Object.keys(updatedTasks).forEach((cat) => {
+    categories.forEach((cat) => {
       updatedTasks[cat] = updatedTasks[cat].filter((task) => task.id !== id);
     });
 
@@ -63,12 +63,11 @@ const TaskComponent = () => {
     setIsEditing(null); // Reset the editing state
   };
 
-  // const deleteTaskHandler = (taskId, category) => {
-  //   const updatedTasks = { ...tasks };
-  //   updatedTasks[category] = updatedTasks[category].filter((task) => task.id !== taskId);
-
-  //   setTasks(updatedTasks);
-  // };
+  const deleteTaskHandler = (taskId, category) => {
+    const updatedTasks = { ...tasks };
+    updatedTasks[category] = updatedTasks[category].filter((task) => task.id !== taskId);
+    setTasks(updatedTasks);
+  };
 
   return (
     <div className="task__container">
