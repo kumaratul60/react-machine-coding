@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const AuthForm = ({ isLogin }) => {
+const AuthForm = ({ isLogin, onLogin }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -34,8 +34,10 @@ const AuthForm = ({ isLogin }) => {
 
     if (isLogin) {
       // Login flow
-      if (user && user.password === password) {
+      if (user && user.password === password) { 
         alert("Login successful!");
+        console.log({ user });
+        onLogin(user); // Pass the logged-in user to the parent component
       } else {
         alert("Invalid email or password");
       }
@@ -44,8 +46,10 @@ const AuthForm = ({ isLogin }) => {
       if (user) {
         alert("User already exists!");
       } else {
-        saveUser({ name, email, password });
+        const newUser = { name, email, password };
+        saveUser(newUser);
         alert("Registration successful!");
+        onLogin(newUser); // Automatically log in the user after registration
       }
     }
   };
