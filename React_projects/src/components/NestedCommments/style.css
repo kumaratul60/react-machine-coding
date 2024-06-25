@@ -1,0 +1,16 @@
+.comment {
+  margin-left: 20px;
+}
+
+.comment-list {
+  margin-top: 10px;
+}
+
+.nested-comment-widget {
+  width: 500px;
+  margin: 0 auto;
+}
+
+form {
+  margin-bottom: 20px;
+}

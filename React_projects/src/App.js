@@ -23,6 +23,7 @@ import {
   MarkDown,
   MyComponent,
   NestedComment,
+  NestedCommentWidget,
   NewCounter,
   NewFolderApp,
   PaginationComponent,
@@ -41,6 +42,7 @@ import {
   Ttt,
   UseFetch,
   UsingUseCounterHooks,
+  WindowComponent,
 } from "./components";
 
 function App() {
@@ -83,13 +85,15 @@ function App() {
 
       {/* <Collapsible /> */}
       {/* <NestedComment /> */}
-      <InputChar />
-
+      {/* <NestedCommentWidget /> */}
+      {/* <InputChar /> */}
+      {/* <Ttt /> */}
       {/* <UsingUseCounterHooks /> */}
       {/* <UseFetch/> */}
       {/* <FetchCitiesWeather /> */}
       {/* <CounterShare /> */}
       {/* <CounterUsingContext /> */}
+      <WindowComponent />
     </div>
   );
 }

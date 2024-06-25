@@ -1,103 +1,84 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-#root
-{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
+#root {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.container{
-  
-    width: 65%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+.container {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
-.container .comment-box
-{
-    display: block;
-    width: 66%;
-    padding: 10px;
-    border: none;
-    border-bottom: 2px solid #42a02d;
-    font-size: 1.2em;
-    margin-bottom: 1.1rem;
-    outline: none;
-    background: transparent;
+.container .comment-box {
+  display: block;
+  width: 66%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #42a02d;
+  font-size: 1.2em;
+  margin-bottom: 1.1rem;
+  outline: none;
+  background: transparent;
 }
 
-.container .main-btn
-{
-    padding: 11px 20px;
-    margin-right: -56%;
-    border: none;
-    border-radius: 20px;
-    background: #6cd5f0;
-    cursor: pointer;
-
+.container .main-btn {
+  padding: 11px 20px;
+  margin-right: -56%;
+  border: none;
+  border-radius: 20px;
+  background: #6cd5f0;
+  cursor: pointer;
 }
 
-.comment-area
-{
-    margin: 1.4rem 0 1.4rem 0;
-    background: lightcyan;
-    height: auto;
-    padding: 1.9% 2%;
-    max-width: 76%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    
+.comment-area {
+  margin: 1.4rem 0 1.4rem 0;
+  background: lightcyan;
+  height: auto;
+  padding: 1.9% 2%;
+  max-width: 76%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.comment-area p{
-  
-    margin-bottom: 1rem;
-    
+.comment-area p {
+  margin-bottom: 1rem;
 }
-.comment-area div{
-    position: relative;
-    height: 30px;
-    width: 100%;
-
+.comment-area div {
+  position: relative;
+  height: 30px;
+  width: 100%;
 }
-.comment-area .reply
-{
-   position: absolute;
-   right: 0;
-   padding: 5px 10px;
-   border: none;
-   border-radius: 20px;
-   background: #6cd5f0;
-   cursor: pointer;
+.comment-area .reply {
+  position: absolute;
+  right: 0;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  background: #6cd5f0;
+  cursor: pointer;
 }
-.comment-container
-{
-    
-    width: 120%;
-    overflow: auto;
-    margin-top: 1.6rem;
-   
-    
+.comment-container {
+  width: 120%;
+  overflow: auto;
+  margin-top: 1.6rem;
 }
-.reply-box
-{
-    border: none;
-    outline: none;
-    background: transparent;
-    border-bottom: 3px solid black;
-    position: absolute;
-    right: 70px;
-    width: 75%;
-    padding: 5px 10px;
-    
+.reply-box {
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 3px solid black;
+  position: absolute;
+  right: 70px;
+  width: 75%;
+  padding: 5px 10px;
 }

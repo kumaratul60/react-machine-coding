@@ -41,9 +41,11 @@ import TextSpeaker from "./Text-to-speek/speek";
 import TodoTickComplete from "./Todo/TodoTickComplete";
 import ToggleBox from "./Toggle box/ToggleBox";
 import TrafficLights from "./TrafficLights/TrafficLights";
-import Ttt from "./Tic Tac Toe/Ttt";
+import Ttt from "./Tic Tac Toe/TicTacToe";
 import UseFetch from "./CustomHooks/UseFetch/UseFetch";
 import UsingUseCounterHooks from "./CustomHooks/UseCounter";
+import NestedCommentWidget from "./NestedCommments/Main";
+import WindowComponent from "./windowHightWidth/Main";
 
 export {
   AllCalls,
@@ -87,4 +89,6 @@ export {
   Ttt,
   UseFetch,
   UsingUseCounterHooks,
+  NestedCommentWidget,
+  WindowComponent,
 };

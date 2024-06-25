@@ -3,20 +3,37 @@ import { Patterns } from "./Pattern";
 import Square from "./Square";
 import "./Ttt.css";
 
-const Ttt = () => {
-  const [board, setBoard] = useState(["", "", "", "", "", "", "", "", ""]);
+const TicTacToe = () => {
+  // const [board, setBoard] = useState(["", "", "", "", "", "", "", "", ""]);
+  const [board, setBoard] = useState(Array(9).fill(""));
   const [player, setPlayer] = useState("O");
   const [result, setResult] = useState({ winner: "none", state: "none" });
 
   useEffect(() => {
-    checkWin();
-    checkIfTie();
+    // checkWin();
+    // checkIfTie();
 
-    if (player === "X") {
-      setPlayer("O");
-    } else {
-      setPlayer("X");
-    }
+    // if (player === "X") {
+    //   setPlayer("O");
+    // } else {
+    //   setPlayer("X");
+    // }
+
+    const checkGameState = () => {
+      const winner = checkWin();
+      if (winner) {
+        setResult({ winner, state: "Won" });
+        return;
+      }
+
+      if (checkIfTie()) {
+        setResult({ winner: "No One", state: "Tie" });
+      }
+    };
+
+    checkGameState();
+    setPlayer((prevPlayer) => (prevPlayer === "X" ? "O" : "X"));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [board]);
 
   useEffect(() => {
@@ -55,28 +72,44 @@ const Ttt = () => {
     });
   };
 
-  const checkIfTie = () => {
-    let filled = true;
-    board.forEach((square) => {
-      if (square === "") {
-        filled = false;
-      }
-    });
+  // const checkIfTie = () => {
+  //   let filled = true;
+  //   board.forEach((square) => {
+  //     if (square === "") {
+  //       filled = false;
+  //     }
+  //   });
 
-    if (filled) {
-      setResult({ winner: "No One", state: "Tie" });
-    }
+  //   if (filled) {
+  //     setResult({ winner: "No One", state: "Tie" });
+  //   }
+  // };
+
+  const checkIfTie = () => {
+    return board.every((square) => square !== "");
   };
 
   const restartGame = () => {
-    setBoard(["", "", "", "", "", "", "", "", ""]);
+    setBoard(Array(9).fill(""));
     setPlayer("O");
   };
+
+  const renderSquare = (index) => (
+    <Square val={board[index]} chooseSquare={() => chooseSquare(index)} />
+  );
 
   return (
     <div className="ttt">
       <div className="board">
-        <div className="row">
+        {[0, 1, 2].map((i) => (
+          <div className="row" key={i}>
+            {renderSquare(i * 3)}
+            {renderSquare(i * 3 + 1)}
+            {renderSquare(i * 3 + 2)}
+          </div>
+        ))}
+
+        {/* <div className="row">
           <Square
             val={board[0]}
             chooseSquare={() => {
@@ -135,9 +168,9 @@ const Ttt = () => {
               chooseSquare(8);
             }}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
 };
-export default Ttt;
+export default TicTacToe;
