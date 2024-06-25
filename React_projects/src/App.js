@@ -32,6 +32,7 @@ import {
   Search,
   ShowEcomerceUI,
   Stack,
+  StartRatingMain,
   StateExample,
   Stopwatch,
   StopwatchCounter,
@@ -93,7 +94,8 @@ function App() {
       {/* <FetchCitiesWeather /> */}
       {/* <CounterShare /> */}
       {/* <CounterUsingContext /> */}
-      <WindowComponent />
+      {/* <WindowComponent /> */}
+      <StartRatingMain />
     </div>
   );
 }

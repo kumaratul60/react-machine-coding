@@ -46,6 +46,7 @@ import UseFetch from "./CustomHooks/UseFetch/UseFetch";
 import UsingUseCounterHooks from "./CustomHooks/UseCounter";
 import NestedCommentWidget from "./NestedCommments/Main";
 import WindowComponent from "./windowHightWidth/Main";
+import StartRatingMain from "./StarRating/main"
 
 export {
   AllCalls,
@@ -91,4 +92,5 @@ export {
   UsingUseCounterHooks,
   NestedCommentWidget,
   WindowComponent,
+  StartRatingMain,
 };
