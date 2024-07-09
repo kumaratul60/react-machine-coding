@@ -9,6 +9,17 @@
 - Context API concept
 - Themeswitcher using context api
 - Todo app with CRUD and persistent state using context API & local storage
+- Trello-board
+- Image-carosel
+- Inifinite-scroll
+- Localization-translate (multilanguage)
+- Nested-dropdown
+- Paginamtion
+- Select dropdown
+- Drag-drop
+- Accordina-checkbox
+- Countdown timer
+
 
 /React_project
 
