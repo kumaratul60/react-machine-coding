@@ -19,6 +19,7 @@
 - Drag-drop
 - Accordina-checkbox
 - Countdown timer
+- Nested Comments
 
 
 /React_project
